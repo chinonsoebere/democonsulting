@@ -10,7 +10,7 @@ import Firebase
 
 class HomeViewController: UIViewController {
     
-    let screenNameArray = ["home", "purchase", "checkout", "pdp", "plp"]
+//    let screenNameArray = ["home", "purchase", "checkout", "pdp", "plp"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
