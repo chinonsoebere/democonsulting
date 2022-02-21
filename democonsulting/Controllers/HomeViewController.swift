@@ -10,7 +10,8 @@ import Firebase
 
 class HomeViewController: UIViewController {
     
-//    let screenNameArray = ["home", "purchase", "checkout", "pdp", "plp"]
+
+    //    let screenNameArray = ["home", "purchase", "checkout", "pdp", "plp"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,9 +22,16 @@ class HomeViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         //Log Screenview
-       //screenView(screen_name: screenNameArray.randomElement() ?? "", screen_class: "home class");
         screenView(screen_name: title ?? "");
 
+    }
+    
+    @IBAction func screenView(_ sender: UIButton) {
+        screenView(screen_name: title ?? "");
+    }
+    
+    @IBAction func otherAction(_ sender: UIButton) {
+        screenView(screen_name: title ?? "");
     }
 
     func screenView(screen_name: String){

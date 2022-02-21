@@ -1,12 +1,11 @@
 {
     "exportFormatVersion": 2,
-    "exportTime": "2022-02-19 17:47:15",
+    "exportTime": "2022-02-21 16:43:20",
     "containerVersion": {
-        "path": "accounts/6003309128/containers/59314202/versions/2",
+        "path": "accounts/6003309128/containers/59314202/versions/4",
         "accountId": "6003309128",
         "containerId": "59314202",
-        "containerVersionId": "2",
-        "name": "Initial Config",
+        "containerVersionId": "4",
         "container": {
             "path": "accounts/6003309128/containers/59314202",
             "accountId": "6003309128",
@@ -1377,6 +1376,21 @@
                                         "value": "{{CTA}}"
                                     }
                                 ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "index",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "dimension",
+                                        "value": "{{country}}"
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -1386,7 +1400,7 @@
                         "value": "UA-190722408-1"
                     }
                 ],
-                "fingerprint": "1645292800570",
+                "fingerprint": "1645398908194",
                 "parentFolderId": "6"
             },
             {
@@ -2013,7 +2027,7 @@
                 "name": "In-app Purchase Value"
             }
         ],
-        "fingerprint": "1645292804883",
-        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6003309128/containers/59314202/versions/2?apiLink=version"
+        "fingerprint": "1645461784703",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6003309128/containers/59314202/versions/4?apiLink=version"
     }
 }
